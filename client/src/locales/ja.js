@@ -6,6 +6,7 @@ export default {
     orders: '注文',
     finance: '財務',
     demandForecast: '需要予測',
+    restocking: '補充',
     companyName: '触媒コンポーネンツ',
     subtitle: '在庫管理システム'
   },
@@ -101,11 +102,41 @@ export default {
     }
   },
 
+  // Restocking
+  restocking: {
+    title: '補充プランナー',
+    description: '需要予測と現在の在庫レベルに基づいて補充品目を推奨',
+    budget: '利用可能予算',
+    budgetOf: '/',
+    itemsSelected: '{count}件選択中',
+    recommendations: '推奨アイテム',
+    placeOrder: '注文する',
+    totalCost: '合計コスト',
+    orderPlaced: '注文が正常に送信されました',
+    orderNumber: '注文番号',
+    expectedDelivery: '予定配達日',
+    noItems: '現在のフィルターで補充が必要な品目はありません',
+    urgentBadge: '緊急',
+    lowStockBadge: '在庫僅少',
+    highDemandBadge: '需要増加',
+    table: {
+      itemName: '品目名',
+      sku: 'SKU',
+      inStock: '手持在庫',
+      reorderPoint: '再注文点',
+      trend: 'トレンド',
+      qtyToOrder: '注文数量',
+      estimatedCost: '概算コスト',
+      priority: '優先度'
+    }
+  },
+
   // Orders
   orders: {
     title: '注文',
     description: '顧客注文の表示と管理',
     allOrders: 'すべての注文',
+    restockingOrders: '送信済み補充注文',
     totalOrders: '総注文数',
     totalRevenue: '総収益',
     avgOrderValue: '平均注文額',
